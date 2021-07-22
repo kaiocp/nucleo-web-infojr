@@ -1,8 +1,8 @@
 # Núcleo de [...]
 
-Olá! Seja bem vindo ao Núcleo de [...]!
+Olá, pessoa! Seja bem vindo ao Núcleo de [...]!
 
-Use este repositório para ver e fazer as atividades do núcleo.
+Este repositório será usado para ver e fazer as atividades do núcleo durante este ciclo.
 
 ## Instruções de envio de atividades
 
@@ -15,3 +15,11 @@ Seus commits deverão ser contínuos e explicativos, então nada de fazer a ativ
 ### Protótipo
 
 No caso do núcleo de design, basta editar o `README.md` de cada atividade para incluir o link do seu protótipo no Figma. Nesse caso não será necessário criar branches novas, a edição pode ser feita diretamente na `master`.
+
+## Observações importantes
+
+Lembre-se que o núcleo é o seu treinamento para começar a trabalhar nos projetos da InfoJr. Portanto, tenha em mente que a sua postura aqui deverá ser adequada para os nossos projetos. Sendo assim, não será tolerado:
+
+1. Falta de compromisso com os prazos das atividades. Isso inclui também começar a fazer a atividade em cima da hora.
+2. Entregas incompletas ou mal feitas. Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu melhor.
+3. Ausência de comunicação com os orientadores. Está com dificuldade? Peça ajuda. Não vai conseguir entregar no prazo? Justifique com antecedência. Algo te incomoda no núcleo? Dê o seu feedback.
