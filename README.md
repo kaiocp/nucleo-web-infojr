@@ -6,15 +6,15 @@ Este repositório será usado para ver e fazer as atividades do núcleo durante 
 
 ## Instruções de envio de atividades
 
-**Delete essa parte se for o Núcleo de Design:**
+**Delete essa parte do README.md se for o Núcleo de Design:**
 
 Crie uma branch a partir da `master` seguindo o padrão `[número da atividade]-[nome do indivíduo]` para fazer cada atividade (por exemplo: `2-fulano` para desenvolver a 2ª atividade do núcleo). 
 
 Seus commits deverão ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros, e isso será feito através dos seus commits no GitLab.
 
-**Delete essa parte caso seja outro núcleo:**
+**Delete essa parte do README.md caso seja outro núcleo:**
 
-No caso do núcleo de design, basta editar o `README.md` de cada atividade para incluir o link do seu protótipo no Figma. Nesse caso não será necessário criar branches novas, a edição pode ser feita diretamente na `master`.
+Edite o `README.md` de cada atividade para incluir o link do seu protótipo. Não será necessário criar branches novas, a edição pode ser feita diretamente na `master`.
 
 ## Observações importantes
 
