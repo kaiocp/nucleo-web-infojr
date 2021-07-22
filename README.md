@@ -19,15 +19,15 @@ Edite o `README.md` de cada atividade para incluir o link do seu protótipo. Nã
 ## Observações importantes
 
 Lembre-se que o núcleo é o seu treinamento para começar a trabalhar nos projetos da InfoJr. Portanto, tenha em mente que a sua postura aqui deverá ser adequada para os nossos projetos. Sendo assim, não será tolerado:
-### Falta de compromisso com os prazos
+#### Falta de compromisso com os prazos
 
 Isso inclui também começar a fazer a atividade em cima da hora, pois isso impede que você tenha tempo hábil para lidar com imprevistos, acarretando em atrasos que seriam facilmente evitáveis se houvesse maior antecedência na hora de fazer a atividade.
 
-### Entregas incompletas ou mal feitas
+#### Entregas incompletas ou mal feitas
 
 Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu melhor e tente fazer algo que você teria orgulho de mostrar para as pessoas como prova do seu progresso.
 
-### Ausência de comunicação com os orientadores
+#### Ausência de comunicação com os orientadores
 
 - Está com dificuldade? Peça ajuda. 
 - Não vai conseguir entregar no prazo? Justifique com antecedência. 
