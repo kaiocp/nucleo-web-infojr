@@ -14,7 +14,7 @@ Seus commits deverão ser contínuos e explicativos, então nada de fazer a ativ
 
 **Delete essa parte do README.md caso seja outro núcleo:**
 
-Edite o `README.md` de cada atividade para incluir o link do seu protótipo. Não será necessário criar branches novas, a edição pode ser feita diretamente na `master`.
+Edite o `README.md` de cada atividade para incluir o link do seu protótipo. Não será necessário criar branches novas, a edição pode ser feita diretamente na `main`.
 
 ## Observações importantes
 
