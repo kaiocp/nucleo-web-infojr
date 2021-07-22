@@ -8,9 +8,9 @@ Use este repositório para ver e fazer as atividades do núcleo.
 
 ### Código
 
-Crie uma branch a partir da `master` seguindo o padrão `[número da atividade]-[nome do indivíduo]` para fazer cada atividade (por exemplo: 2-fulano para desenvolver a 2ª atividade do núcleo). 
+Crie uma branch a partir da `master` seguindo o padrão `[número da atividade]-[nome do indivíduo]` para fazer cada atividade (por exemplo: `2-fulano` para desenvolver a 2ª atividade do núcleo). 
 
-Seus commits devem ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros.
+Seus commits deverão ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros, e isso será feito através dos seus commits no GitLab.
 
 ### Protótipo
 
