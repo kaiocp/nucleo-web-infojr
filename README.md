@@ -20,6 +20,18 @@ Edite o `README.md` de cada atividade para incluir o link do seu protótipo. Nã
 
 Lembre-se que o núcleo é o seu treinamento para começar a trabalhar nos projetos da InfoJr. Portanto, tenha em mente que a sua postura aqui deverá ser adequada para os nossos projetos. Sendo assim, não será tolerado:
 
-1. Falta de compromisso com os prazos das atividades. Isso inclui também começar a fazer a atividade em cima da hora.
-2. Entregas incompletas ou mal feitas. Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu melhor.
-3. Ausência de comunicação com os orientadores. Está com dificuldade? Peça ajuda. Não vai conseguir entregar no prazo? Justifique com antecedência. Algo te incomoda no núcleo? Dê o seu feedback.
+## Falta de compromisso com os prazos das atividades. 
+
+Isso inclui também começar a fazer a atividade em cima da hora, pois isso impede que você tenha tempo hábil para lidar com imprevistos, acarretando em atrasos que seriam facilmente evitáveis se houvesse maior antecedência na hora de fazer a atividade.
+
+## Entregas incompletas ou mal feitas. 
+
+Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu melhor e tente fazer algo que você teria orgulho de mostrar para as pessoas como prova do seu progresso.
+
+## Ausência de comunicação com os orientadores. 
+
+- Está com dificuldade? Peça ajuda. 
+- Não vai conseguir entregar no prazo? Justifique com antecedência. 
+- Algo te incomoda no núcleo? Dê o seu feedback.
+
+Comunicação é essencial em todas as áreas da vida, os núcleos de estudo não são exceção.

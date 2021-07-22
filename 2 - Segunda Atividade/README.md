@@ -1,4 +1,4 @@
-# Atividade 2
+# Atividade 2 - [Nome da Atividade]
 
 Esse é um template que deverá ser usado para as atividades dos núcleos relacionadas à programação. Substitua este parágrafo por uma breve descrição da atividade. Substitua as demais informações contidas neste README.md
 
