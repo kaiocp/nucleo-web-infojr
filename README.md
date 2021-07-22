@@ -2,7 +2,7 @@
 
 Olá, pessoa! Seja bem vindo ao Núcleo de **[Nome do núcleo]**!
 
-Este repositório será usado para ver e fazer as atividades do núcleo durante este ciclo.
+Este repositório será usado para ver e fazer as atividades do núcleo durante este ciclo. Você precisará clonar este repositório no seu computador.
 
 ## Instruções de envio de atividades
 
