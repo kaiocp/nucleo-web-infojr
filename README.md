@@ -1,6 +1,6 @@
 # Núcleo de [...]
 
-Olá, pessoa! Seja bem vindo ao Núcleo de [...]!
+Olá, pessoa! Seja bem vindo ao Núcleo de **[Nome do núcleo]**!
 
 Este repositório será usado para ver e fazer as atividades do núcleo durante este ciclo.
 
