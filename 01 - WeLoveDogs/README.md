@@ -4,7 +4,6 @@
 
 - **Núcleo:** Web
 - **Orientadores:** [Lávio Vale](https://gitlab.com/lavio), [Victor Hugo](https://gitlab.com/victorhsmsantos) e [Luiz Valverde](https://gitlab.com/luiz2003)
-- **Semana 01**
 
 ## Descrição da atividade
 
