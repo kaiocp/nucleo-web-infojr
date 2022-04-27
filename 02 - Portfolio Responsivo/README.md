@@ -7,7 +7,7 @@
 
 ## Descrição da atividade
 
-O projeto WeLoveDogs tem por objetivo iniciar o aprendizado em HTML e CSS, 2 das 3 tecnnologias bases do front-end. O projeto possui o formato static multipage¹, com 4 páginas no total e a maneira de navegar e visualizar seu conteúdo por completo é através dos links do menu.
+O projeto Portifólio Responsivo tem por objetivo aprimorar o aprendizado de HTML e CSS e iniciar o uso do JavaScript. O projeto possui o formato responsivo singlepage, com dois temas de cores, o Dark Theme e o Light Theme.
 
 ### Tarefa
 
