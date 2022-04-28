@@ -11,7 +11,7 @@ O projeto MovieDB tem por objetivo explorar a API¹ do site [TheMovieDB](https:/
 
 ### Tarefa
 
-A atividade não possui um mockup pré-definido, então toda a estrutura e estilização do layout ficará livre, contudo, alguns elementos mínimos deverão estar presentes na página. Acesse a [issue](https://gitlab.com/InfoJrUFBA/nucleos/2021/03/web/-/issues/6) da atividade para visualizar os elementos mínimos que deverão constar na página e os requisitos que serão avaliados na hora da correção.
+A atividade não possui um mockup pré-definido, então toda a estrutura e estilização do layout ficará livre, contudo, alguns elementos mínimos deverão estar presentes na página. Eles estarão listados na seção de ``Requisitos da atividade`` no [alterclass](https://infojr.alterclass.school/courses/nucleo-web-20221-326651933383197264).
 
 ### API_KEY²
 
