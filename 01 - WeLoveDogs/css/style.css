@@ -115,15 +115,14 @@ body {
     max-width: 1080px;
     display: flex;
     flex-direction: column;
-    margin: 4rem auto 0 auto;
+    margin: 30px auto;
 }
 
 .blog h1 {
     text-align: center;
-    margin-bottom: 0.8rem;
+    margin-bottom: 50px;
     font-weight: 700;
-    font-size: 3rem;
-    margin-bottom: 3.125rem;
+    font-size: 48px;
 }
 
 .blog__post {
@@ -134,24 +133,24 @@ body {
 
 .blog__post h2 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 .blog__post p {
-    line-height: 1.375rem;
+    line-height: 22px;
     text-align: justify;
 }
 
 .blog__post-text {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .blog__posts-container {
     display: flex;
     flex-direction: column;
-    gap: 2.8rem;
+    gap: 45px;
 }
 
 
@@ -162,15 +161,15 @@ body {
 }
 
 .contato__title {
-    margin-top: 5rem;
+    margin-top: 80px;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 48px;
     text-align: center;
 }
 
 .contato__container {
     display: flex;
-    margin: 2rem auto 0 auto;
+    margin: 32px auto;
     align-items: center;
     justify-content: center;
 }
@@ -178,7 +177,7 @@ body {
 .contato__container-form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem 1.25rem;
+    gap: 20px;
 }
 
 .contato__container-field {
@@ -188,7 +187,7 @@ body {
 
 .contato__container-field label {
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 14px;
     width: 25%;
     text-align: center;
     line-height: 24.51px;
