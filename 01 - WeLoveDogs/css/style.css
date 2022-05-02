@@ -77,3 +77,32 @@ body {
 .main__image {
     margin-top: 25px;
 }
+
+
+/* quem-somos.html */
+
+.quemsomos {
+    max-width: 687px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 64px auto;
+    gap: 16px;
+}
+
+.quemsomos__title {
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.quemsomos__text {
+    text-align: justify;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.quemsomos__image {
+    align-self: center;
+}
