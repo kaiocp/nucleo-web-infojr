@@ -1,0 +1,46 @@
+:root {
+    --open-sans: 'Open Sans', sans-serif;
+    --verde-opaco: #7ED32166;
+    --verde-texto: #1C4701;
+    --verde: #7ED321;
+    --preto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--open-sans);
+}
+
+
+/* index.html */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 15px;
+    align-items: center;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 35px;
+}
+
+.header__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.button {
+    border-radius: 15px;
+}
+
+.header__button {
+    background-color: var(--verde-opaco);
+    padding: 9px 32px;
+}
