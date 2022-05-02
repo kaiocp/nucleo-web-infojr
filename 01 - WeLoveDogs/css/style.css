@@ -44,3 +44,36 @@ body {
     background-color: var(--verde-opaco);
     padding: 9px 32px;
 }
+
+.main {
+    max-width: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 100px;
+}
+
+.main__content p {
+    width: 120%;
+}
+
+.main__text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+
+.main__button {
+    background-color: var(--verde);
+    color: var(--verde-texto);
+    text-decoration: none;
+    padding: 13px 55px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main__image {
+    margin-top: 25px;
+}
