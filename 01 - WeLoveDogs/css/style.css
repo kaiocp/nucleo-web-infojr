@@ -198,20 +198,16 @@ textarea {
     border-radius: 7px;
     width: 419px;
     height: 43px;
+    color: var(--cinza);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 0 12px 13px;
 }
 
 .contato__container-field textarea {
     height: 160px;
     font-family: var(--open-sans);
     resize: none;
-}
-
-.contato__container-field input,
-textarea {
-    color: var(--cinza);
-    font-size: 14px;
-    font-weight: 700;
-    padding: 12px 0 12px 13px;
 }
 
 .contato__container-button {
