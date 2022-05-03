@@ -7,10 +7,6 @@
     --cinza: #9F9F9F;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--open-sans);
 }
