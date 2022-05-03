@@ -4,6 +4,7 @@
     --verde-texto: #1C4701;
     --verde: #7ED321;
     --preto: #000000;
+    --cinza: #9F9F9F;
 }
 
 * {
@@ -42,6 +43,7 @@ body {
 
 .header__button {
     background-color: var(--verde-opaco);
+    color: var(--verde-texto);
     padding: 9px 32px;
 }
 
@@ -157,7 +159,7 @@ body {
 /* contato.html */
 
 .contato-button {
-    background-color: #7ED321;
+    background-color: var(--verde);
 }
 
 .contato__title {
@@ -195,7 +197,7 @@ body {
 
 .contato__container-field input,
 textarea {
-    border: 1px solid #9F9F9F;
+    border: 1px solid var(--cinza);
     box-sizing: border-box;
     border-radius: 7px;
     width: 419px;
@@ -210,7 +212,7 @@ textarea {
 
 .contato__container-field input,
 textarea {
-    color: #9F9F9F;
+    color: var(--cinza);
     font-size: 14px;
     font-weight: 700;
     padding: 12px 0 12px 13px;
@@ -222,7 +224,7 @@ textarea {
 }
 
 .contato__container-button button {
-    background: #7ED321;
+    background: var(--verde);
     border-radius: 10px;
     border: none;
     width: 141px;
@@ -231,5 +233,5 @@ textarea {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    color: #1C4701;
+    color: var(--verde-texto);
 }
