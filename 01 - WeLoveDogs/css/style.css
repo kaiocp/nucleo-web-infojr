@@ -208,12 +208,12 @@ textarea {
     resize: none;
 }
 
-.contato__container-field input::placeholder,
-textarea::placeholder {
+.contato__container-field input,
+textarea {
     color: #9F9F9F;
     font-size: 14px;
     font-weight: 700;
-    padding: 12px 0 0 13px;
+    padding: 12px 0 12px 13px;
 }
 
 .contato__container-button {
