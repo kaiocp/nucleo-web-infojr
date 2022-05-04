@@ -11,7 +11,7 @@ O projeto Portifólio Responsivo tem por objetivo aprimorar o aprendizado de HTM
 
 ### Tarefa
 
-Com base no [mockup²](https://www.figma.com/file/m51hxPh7T2yRX58k1xbdh3/Dark-Mode-%E2%80%93-N%C3%BAcleo-Web?node-id=0%3A1 ) apresentado, usando HTML, CSS e JavaScript, construa um portfólio responsivo¹ e com a funcionalidade de altenar entre modo escuro e claro.
+Com base no [mockup²](https://www.figma.com/file/m51hxPh7T2yRX58k1xbdh3/Dark-Mode-%E2%80%93-N%C3%BAcleo-Web?node-id=0%3A1 ) apresentado, usando HTML, CSS e JavaScript, construa um portfólio responsivo¹ e com a funcionalidade de alternar entre modo escuro e claro.
 
 #### Requisitos Obrigatórios:
 
