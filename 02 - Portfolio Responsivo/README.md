@@ -11,13 +11,23 @@ O projeto Portifólio Responsivo tem por objetivo aprimorar o aprendizado de HTM
 
 ### Tarefa
 
-Com base no [mockup²](https://www.figma.com/file/83KrYRp9nXE4wyMIWgxu6O/WeLoveDogs-N%C3%BAcleo-Web?node-id=0%3A1) apresentado, usando HTML e CSS, construa a webpage do grupo social WeLoveDogs.
+Com base no [mockup²](https://www.figma.com/file/m51hxPh7T2yRX58k1xbdh3/Dark-Mode-%E2%80%93-N%C3%BAcleo-Web?node-id=0%3A1 ) apresentado, usando HTML, CSS e JavaScript, construa um portfólio responsivo¹ e com a funcionalidade de alternar entre modo escuro e claro.
 
-Acesse a [issue](https://gitlab.com/InfoJrUFBA/nucleos/2021/03/web/-/issues/1) da atividade para visualizar todos os requisitos que serão avaliados na hora da correção
+#### Requisitos Obrigatórios:
+
+- Reponsividade
+- Funcionalidade de dark mode utilizando a DOM
+- Substituir o nome de exemplo pelo seu nome 
+- Substituir as imagens placeholder por imagens à sua escolha
+
+#### Requisitos Opcionais:
+
+- Menu hamburger funcional
+- Substituir os textos de exemplo por informações sobre você
 
 ---
 
-_¹Static multipage. Consiste em um modelo da Web de um site com várias páginas, construídas usando HTML e seu conteúdo não muda independemente da solicitação. A única forma de mudar o conteúdo apresentado é alterado diretamente o código da página. O servidor renderizará as página HTML sempre que o usuário clicar em um link no menu do site._
+_¹Responsividade é uma técnica de estruturação HTML e CSS, em que o site se adapta ao navegador do usuário sem precisar definir diversas folhas de estilos para cada resolução._
 
 _²Mockup é uma representação estática de um projeto, bem próximo do design final, o seu uso tem como finalidade representar a estrutura da informação, visualizar o conteúdo de forma estática, demonstrar as principais funcionalidades (de forma estática) e estimular os envolvidos a revisarem a parte visual (design) do projeto._
 
@@ -29,6 +39,9 @@ _²Mockup é uma representação estática de um projeto, bem próximo do design
   | **[HTML5](https://youtube.com/playlist?list=PLwXQLZ3FdTVGKl3iPEyEWpFoYkMUxWW5O)**
   | **[CSS3](https://youtube.com/playlist?list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG)**
   | **[HTML5 & CSS3 na Prática](https://youtube.com/playlist?list=PLwXQLZ3FdTVF_HYP5r1oR7vK1_7ZuTU78)**
+  | **[Design Responsivo](https://youtube.com/playlist?list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5)**
+  | **[Javascript](https://youtube.com/playlist?list=PLwXQLZ3FdTVF9Y0RbsuN54XYP7D0dZIlR)**
+
 
 ### Figma
 
@@ -72,6 +85,36 @@ Formatação geral
 - [Espaçamentos e a mágica do CSS Box Model - Rocketseat](https://youtu.be/nhW70H9H4gU)
 - [Representando Cores com CSS3 - Curso em Vídeo](https://youtu.be/uKjKnztS3cY)
 
+Responsividade
+
+- [Como utilizar Media Queries para sites Responsivos](https://www.youtube.com/watch?v=AltqAPZzAqo)
+- [Responsividade para sites - Curso em Vídeo](https://youtu.be/WcGPSeuJDJ0)
+
+#### JavaScript
+
+Variáveis
+
+- [Variáveis (var, let, const e escopo) - Node Studio Treinamentos](https://youtu.be/GmG5FkF2Hlc)
+
+Funções
+
+- [Funções - Curso em Vídeo](https://youtu.be/mc3TKp2XzhI)
+- [funções - Matheus Battisti](https://youtu.be/ItzRdMj1lzw)
+
+DOM
+
+- [Introdução ao DOM - Curso em vídeo](https://youtu.be/WWZX8RWLxIk)
+- [Eventos DOM - Curso em vídeo](https://youtu.be/wWnBB-mZIvY)
+- [innerHTML property - nexTRIE](https://youtu.be/DSScGM_OtME)
+- [appendChild - Marcelo Espíndola](https://youtu.be/wqyVBiEPd7E)
+- [Events - Basic onclick Event - Intro to Web Apps](https://youtu.be/xj0DQI7N4Go)
+- [Event Handlers in Javascript - Programming With Avelx](https://youtu.be/7UstS0hsHgI)
+
+Menu
+
+- [Menu Mobile - HTML, CSS e JavaScript - Origamid](https://youtu.be/DnODupiIAiE)
+- [Responsive Navigation Menu - Deltaty Code](https://youtu.be/1iS0r238G4g)
+
 ## Instruções para envio
 
 1. Clone este repositório no seu computador
@@ -79,5 +122,5 @@ Formatação geral
 3. Construa a sua atividade apenas nessa branch, e não hesite em pedir por ajuda caso tenha dificuldades
 4. Suba constantemente a sua branch para este repositório para possibilitar o acompanhamento por parte dos orientadores
 5. Para saber se finalizou a atividade, verifique cuidadosamente se todos os requisitos foram cumpridos
-6. Após finalizar a atividade, faça um merge request com o padrão de título: `[número da atividade]` - `[nome da atividade]` (por exemplo: 2 - Coffee Shop)
+6. Após finalizar a atividade, faça um merge request com o padrão de título: `[número da atividade]` - `[nome da atividade]` (por exemplo: 2 - Portfolio Responsivo)
 7. Esteja pronto para apresentar o que você fez na próxima RN (Reunião de Núcleo)
