@@ -4,8 +4,8 @@
     --be-vietnam: 'Be Vietnam Pro', sans-serif;
     --eb-garamond: 'EB Garamond', serif;
     /* light mode */
-    --preto: #202020;
-    --azul: #0065FF;
+    --black: #202020;
+    --blue: #0065FF;
     --grey-bg: #F8F9FA;
     --white-bg: #E5E5E5;
     /* dark mode */
@@ -18,9 +18,24 @@
     padding: 1.563rem;
     justify-content: space-between;
     align-items: center;
-    row-gap: 4.438rem;
+    font-family: var(--be-vietnam);
+    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
+}
+
+.navbar__title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--black);
 }
 
 .navbar__switcher {
     display: flex;
+}
+
+.navbar__switcher {
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    gap: 0.462rem;
 }
