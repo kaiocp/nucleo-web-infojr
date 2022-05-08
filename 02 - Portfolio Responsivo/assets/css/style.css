@@ -13,6 +13,11 @@
     --black-bg: #222222;
 }
 
+body {
+    font-family: var(--be-vietnam);
+    color: var(--black);
+}
+
 
 /* navbar */
 
@@ -21,7 +26,6 @@
     padding: 1.563rem;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--be-vietnam);
     box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
 }
 
@@ -75,11 +79,51 @@ hr {
 }
 
 .card hr {
-    height: 0.063rem;
-    background-color: var(--blue);
-    border: none;
     padding: 0 5.75rem;
 }
 
 
 /* main */
+
+.main {
+    padding: 2.75rem 1.563rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.563rem;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.25rem;
+    font-size: 1.063rem;
+    line-height: 1.553rem;
+}
+
+.main a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.main__box {
+    background-color: var(--grey-bg);
+    padding: 1.25rem;
+    margin: 0 1.875rem 0 0.625rem;
+    border-radius: 10px;
+    display: flex;
+    font-size: 0.75rem;
+}
+
+.main__box img {
+    margin-right: 0.641rem;
+}
+
+.separator {
+    background-color: var(--blue);
+    border: none;
+    height: 0.063rem;
+}
+
+.sep2 {
+    margin: 3.125rem 2rem 4.625rem;
+}
