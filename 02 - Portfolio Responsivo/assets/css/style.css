@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=EB+Garamond:wght@700&display=swap');
+:root {
+    /* fonts */
+    --be-vietnam: 'Be Vietnam Pro', sans-serif;
+    --eb-garamond: 'EB Garamond', serif;
+    /* light mode */
+    --preto: #202020;
+    --azul: #0065FF;
+    --grey-bg: #F8F9FA;
+    --white-bg: #E5E5E5;
+    /* dark mode */
+    --white: #FAF4E6;
+    --black-bg: #222222;
+}
+
 .navbar {
     display: flex;
     padding: 1.563rem;
