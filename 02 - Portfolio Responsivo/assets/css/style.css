@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    padding: 1.563rem;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 4.438rem;
+}
+
+.navbar__switcher {
+    display: flex;
+}
