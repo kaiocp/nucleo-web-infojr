@@ -13,6 +13,9 @@
     --black-bg: #222222;
 }
 
+
+/* navbar */
+
 .navbar {
     display: flex;
     padding: 1.563rem;
@@ -39,6 +42,9 @@
     font-weight: 400;
     gap: 0.462rem;
 }
+
+
+/* card */
 
 .card {
     display: flex;
@@ -69,8 +75,11 @@ hr {
 }
 
 .card hr {
-    height: 1px;
+    height: 0.063rem;
     background-color: var(--blue);
     border: none;
     padding: 0 5.75rem;
 }
+
+
+/* main */
