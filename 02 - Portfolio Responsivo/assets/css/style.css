@@ -133,3 +133,15 @@ hr {
 .sep2 {
     margin: 3.125rem 2rem 4.625rem;
 }
+
+
+/* posts */
+
+.posts {
+    margin: 0 2rem;
+}
+
+.posts h2,
+h3 {
+    text-align: center;
+}
