@@ -93,7 +93,7 @@ hr {
 /* main */
 
 .main {
-    padding: 2.75rem 1.563rem 0 2.5rem;
+    padding: 0 1.563rem 0 2.5rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.563rem;
@@ -135,6 +135,10 @@ hr {
     background-color: var(--blue);
     border: none;
     height: 0.063rem;
+}
+
+.sep1 {
+    margin: 2.5rem 5.75rem 2.75rem 5.75rem;
 }
 
 .sep2 {
@@ -207,4 +211,16 @@ h4 {
     font-size: 0.75rem;
     align-self: center;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        align-items: flex-start;
+        margin: 3.125rem 0 0 14.875rem;
+    }
+    .card h1 {
+        font-size: 4.375rem;
+        text-align: left;
+        margin-bottom: 5rem;
+    }
 }
