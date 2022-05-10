@@ -250,6 +250,7 @@ h4 {
     }
     .posts {
         margin: 0;
+        margin-bottom: 5rem;
     }
     .posts__main {
         align-items: flex-start;
