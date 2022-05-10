@@ -18,6 +18,10 @@ body {
     color: var(--black);
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* navbar */
 
@@ -100,7 +104,6 @@ hr {
 }
 
 .main a {
-    text-decoration: none;
     color: var(--blue);
 }
 
@@ -131,7 +134,7 @@ hr {
 }
 
 .sep2 {
-    margin: 3.125rem 2rem 4.625rem;
+    margin: 3.125rem 2rem 1.563rem 2rem;
 }
 
 
@@ -139,9 +142,27 @@ hr {
 
 .posts {
     margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .posts h2,
-h3 {
+h4 {
     text-align: center;
+}
+
+.posts h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.posts h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.posts p {
+    font-size: 1.063rem;
+    line-height: 1.553rem;
 }
