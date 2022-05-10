@@ -51,6 +51,10 @@ a {
     gap: 0.462rem;
 }
 
+.navbutton {
+    margin: 1.844rem 0 0 1.563rem;
+}
+
 
 /* card */
 
@@ -58,7 +62,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 1.563rem;
     row-gap: 2.5rem;
 }
 
