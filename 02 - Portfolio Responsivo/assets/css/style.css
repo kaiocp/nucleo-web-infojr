@@ -139,6 +139,7 @@ hr {
 
 .sep1 {
     margin: 2.5rem 5.75rem 2.75rem 5.75rem;
+    max-width: 192px;
 }
 
 .sep2 {
@@ -201,6 +202,11 @@ h4 {
     margin-bottom: 1.563rem;
 }
 
+.posts__post-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .button {
     width: 100%;
     padding: 1rem 0;
@@ -214,13 +220,46 @@ h4 {
 }
 
 @media screen and (min-width: 1024px) {
+    .desktop-view {
+        margin: 0 15rem;
+    }
+    .navbutton {
+        display: none;
+    }
     .card {
         align-items: flex-start;
-        margin: 3.125rem 0 0 14.875rem;
+        margin-top: 3.188rem;
     }
     .card h1 {
         font-size: 4.375rem;
         text-align: left;
-        margin-bottom: 5rem;
+    }
+    .sep1 {
+        margin: 5rem 0 5rem 0;
+        min-width: 192px;
+    }
+    .main {
+        padding: 0;
+    }
+    .main__box {
+        margin: 0;
+        max-width: max-content;
+    }
+    .sep2 {
+        margin: 5rem 0;
+    }
+    .posts {
+        margin: 0;
+    }
+    .posts__main {
+        align-items: flex-start;
+    }
+    .posts__post {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.5rem;
+    }
+    .rev {
+        flex-direction: row-reverse;
     }
 }
