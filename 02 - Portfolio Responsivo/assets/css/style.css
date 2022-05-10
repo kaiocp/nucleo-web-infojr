@@ -262,4 +262,18 @@ h4 {
     .rev {
         flex-direction: row-reverse;
     }
+    .posts__post img {
+        min-width: 66.66%;
+    }
+    .posts__post-content {
+        align-items: flex-start;
+    }
+    .posts__post-content p {
+        text-align: start;
+    }
+    .button {
+        width: auto;
+        align-self: flex-start;
+        padding: 1rem 1.875rem;
+    }
 }
