@@ -144,6 +144,15 @@ hr {
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
+    row-gap: 1.563rem;
+    margin-bottom: 1.563rem;
+    align-items: center;
+}
+
+.posts__main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.563rem;
 }
 
 .posts h2,
@@ -160,9 +169,37 @@ h4 {
 .posts h4 {
     font-size: 1.25rem;
     font-weight: 700;
+    margin-bottom: 0.625rem;
 }
 
 .posts p {
     font-size: 1.063rem;
     line-height: 1.553rem;
+    font-style: normal;
+}
+
+.posts img {
+    width: 100%;
+    margin-bottom: 1.063rem;
+}
+
+.posts__post {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts__post p {
+    margin-bottom: 1.563rem;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem 0;
+    border: 1px solid var(--blue);
+    border-radius: 44.5px;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 0.75rem;
+    align-self: center;
+    text-align: center;
 }
