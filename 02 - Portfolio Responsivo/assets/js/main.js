@@ -7,8 +7,8 @@ const hr = document.querySelectorAll('.separator');
 const headers = document.querySelectorAll('.headers');
 const anchors = document.querySelectorAll('.anchor');
 const buttons = document.querySelectorAll('.button');
+const navLinks = document.querySelectorAll('.nav__links-list--item');
 const svgs = document.querySelectorAll('.svgs');
-
 
 
 checkbox.addEventListener('change', () => {
@@ -29,6 +29,9 @@ checkbox.addEventListener('change', () => {
     });
     buttons.forEach(el => {
         el.classList.toggle('dark-buttons');
+    });
+    navLinks.forEach(el => {
+        el.classList.toggle('dark-font');
     });
     svgs.forEach(el => {
         el.classList.toggle('dark-svgs');
