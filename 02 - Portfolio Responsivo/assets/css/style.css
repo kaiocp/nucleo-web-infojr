@@ -245,6 +245,9 @@ h4 {
         margin: 0;
         max-width: max-content;
     }
+    .main__box p {
+        font-size: 0.875rem;
+    }
     .sep2 {
         margin: 5rem 0;
     }
