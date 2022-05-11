@@ -17,6 +17,7 @@
 body {
     font-family: var(--be-vietnam);
     color: var(--black);
+    transition: background 0.2s linear;
 }
 
 a {
@@ -71,6 +72,10 @@ a {
     position: relative;
     width: 39.22px;
     height: 21.21px;
+}
+
+.label:hover {
+    cursor: pointer;
 }
 
 .ball {
@@ -250,6 +255,43 @@ h4 {
     align-self: center;
     text-align: center;
 }
+
+.dark-svgs {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(7%) saturate(749%) hue-rotate(325deg) brightness(105%) contrast(96%);
+}
+
+
+/* dark-mode classes */
+
+.dark-bg {
+    background-color: var(--black-bg) !important;
+}
+
+.dark-font {
+    color: var(--white) !important;
+}
+
+.dark-bg-box {
+    background-color: var(--box-bg) !important;
+}
+
+.dark-bg-switcher {
+    background-color: var(--white) !important;
+}
+
+.dark-anchors {
+    color: var(--white) !important;
+    text-decoration: underline !important;
+}
+
+.dark-buttons {
+    color: var(--white);
+    background-color: var(--box-bg);
+    border-color: var(--white);
+}
+
+
+/* media queries */
 
 @media screen and (min-width: 1024px) {
     .desktop-view {
