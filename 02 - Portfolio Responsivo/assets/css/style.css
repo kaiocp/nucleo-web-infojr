@@ -277,6 +277,7 @@ h4 {
 
 .dark-bg-switcher {
     background-color: var(--white) !important;
+    border-color: #222222;
 }
 
 .dark-anchors {
