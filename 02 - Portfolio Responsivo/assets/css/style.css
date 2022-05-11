@@ -42,6 +42,10 @@ a {
     color: var(--black);
 }
 
+.navbar__desktop {
+    display: none;
+}
+
 .navbar__switcher {
     display: flex;
 }
@@ -296,6 +300,30 @@ h4 {
 @media screen and (min-width: 1024px) {
     .desktop-view {
         margin: 0 15rem;
+    }
+    .navbar {
+        padding: 2rem 5.438rem;
+    }
+    .navbar__desktop {
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.875rem;
+    }
+    .navbar__links-list {
+        display: flex;
+        column-gap: 1.25rem;
+    }
+    .navbar__links-list a {
+        color: var(--blue);
+    }
+    .navbar__social-list {
+        display: flex;
+        column-gap: 1.919rem;
+    }
+    .navbar__switcher p {
+        display: inline;
     }
     .navbutton {
         display: none;
