@@ -126,10 +126,6 @@ hr {
     padding: 0 0;
 }
 
-.card hr {
-    padding: 0 5.75rem;
-}
-
 
 /* main */
 
@@ -180,7 +176,6 @@ hr {
 
 .sep1 {
     margin: 2.5rem 5.75rem 2.75rem 5.75rem;
-    max-width: 192px;
 }
 
 .sep2 {
@@ -339,7 +334,7 @@ h4 {
     }
     .sep1 {
         margin: 5rem 0 5rem 0;
-        min-width: 192px;
+        max-width: 192px;
     }
     .main {
         padding: 0;
