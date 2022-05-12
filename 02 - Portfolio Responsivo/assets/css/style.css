@@ -174,8 +174,15 @@ hr {
     height: 0.063rem;
 }
 
+.container-separator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .sep1 {
-    margin: 2.5rem 5.75rem 2.75rem 5.75rem;
+    margin: 2.75rem 0;
+    width: 192px;
 }
 
 .sep2 {
@@ -332,9 +339,11 @@ h4 {
         font-size: 4.375rem;
         text-align: left;
     }
+    .container-separator {
+        justify-content: flex-start;
+    }
     .sep1 {
         margin: 5rem 0 5rem 0;
-        max-width: 192px;
     }
     .main {
         padding: 0;
