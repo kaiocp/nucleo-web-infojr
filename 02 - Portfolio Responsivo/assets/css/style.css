@@ -234,6 +234,7 @@ h4 {
 .posts img {
     width: 100%;
     margin-bottom: 1.063rem;
+    border-radius: 10px;
 }
 
 .posts__post {
