@@ -1,0 +1,20 @@
+.movies {
+    display: flex;
+    flex-direction: column;
+}
+
+.movies__movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies__movie img {
+    max-width: 200px;
+}
+
+.movies__movie-description {
+    display: flex;
+    flex-direction: column;
+}
