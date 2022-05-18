@@ -46,12 +46,14 @@ body {
 
 .movie-poster {
     max-width: 200px;
+    border-radius: 10px;
 }
 
 .movies__movie h2 {
     font-family: var(--movie-title-font);
     color: var(--movie-title);
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .movies__movie-description {
