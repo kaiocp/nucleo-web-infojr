@@ -13,6 +13,8 @@ O projeto La Padarie tem por objetivo continuar o aprendizado em HTML, CSS e Jav
 
 Com base no [mockup¹](https://www.figma.com/file/j8n0tlrXRZEk9R7IYUThs1/La-Padarie?node-id=2027%3A2) apresentado, usando HTML, CSS e Javascript, construa a página da panificadora La Padarie. Além do desenvolvimento da página, é fundamental que o layout se adapte a diferentes larguras e resoluções de tela, como as de smartphones e tablets, ação conhecida como design responsivo. Implemente as modificações necessárias para que seu layout seja responsivo.
 
+Os requisitos para esta atividade podem ser encontrados no alterclass.
+
 ---
 
 _¹Mockup é uma representação estática de um projeto, bem próximo do design final, o seu uso tem como finalidade representar a estrutura da informação, visualizar o conteúdo de forma estática, demonstrar as principais funcionalidades (de forma estática) e estimular os envolvidos a revisarem a parte visual (design) do projeto._
