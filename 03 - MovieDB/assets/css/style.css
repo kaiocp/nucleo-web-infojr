@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@400;700&display=swap');
 :root {
     --movie-title-font: 'Limelight';
     --body-font: 'Quicksand', sans-serif;
