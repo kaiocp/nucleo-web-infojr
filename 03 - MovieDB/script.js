@@ -25,14 +25,14 @@ async function makeHTML() {
                     <p>Vote average: ${el.vote_average}</p>
                     <img src="assets/img/star-svgrepo-com.svg" class="star-svg">
                 </div>
-                <hr class=movies__movie-description-hr>
+                <div class=movies__movie-description-hr>
+                    <hr>
+                </div>
                 <p class="movies__movie-description-sinopsys">Synopsis: ${el.overview}</p>
             </div>
         </div>
         `
     });
 }
-
-// usar li?
 
 makeHTML();
