@@ -109,8 +109,7 @@ header img {
         align-self: flex-start;
     }
     .movies__movie {
-        width: 70%;
-        max-width: 1000px;
+        max-width: 1024px;
         flex-direction: row;
         column-gap: 2rem;
     }
