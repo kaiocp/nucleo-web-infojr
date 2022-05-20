@@ -50,7 +50,7 @@ header img {
     justify-content: center;
     align-items: center;
     align-self: center;
-    padding: 1rem;
+    padding: 1.5rem;
     row-gap: 1rem;
     border: 1px solid var(--salmon);
     border-radius: 10px;
@@ -96,6 +96,10 @@ header img {
 
 .original-title {
     font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 @media screen and (min-width: 1024px) {
