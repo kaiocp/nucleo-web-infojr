@@ -10,10 +10,10 @@
 Esta atividade tem o objetivo de introduzir o uso de banco de dados, por meio da intregração de um back-end com um banco de dados sql. Depois de desenvolver a api vocês devem usá-la no front-end da última atividade para deixar os dados salvos.
 ### Tarefa
 
-Crie uma tabela sql com colunas referentes a informações de cada pedido (id, nome do cliente e quantidade de pães) e, usando o express js, crie uma api que se comunique com o banco de dados e possa adicionar e acessar os pedidos. 
+<p>Crie uma tabela sql com colunas referentes a informações de cada pedido (id, nome do cliente e quantidade de pães) e, usando o express js, crie uma api que se comunique com o banco de dados e possa adicionar e acessar os pedidos. 
 Copie o front-end da atividade passada para esta pasta e integre o seu back-end com o front-end fazendo requisições a sua api.
 O seu banco de dados deve estar hospedado [aqui](https://db4free.net/) para facilitar a correção.
-Os requisitos dessa atividade podem ser encontrados no alterclass.
+Os requisitos dessa atividade podem ser encontrados no alterclass.</p>
 ---
 
 ## Materiais de apoio
@@ -132,10 +132,10 @@ Array
 - [JavaScript Higher Order Functions & Arrays - Traversy Media](https://youtu.be/rRgD1yVwIvE)
 
 Express e Sql
-- [Api simples com node.js] (https://www.youtube.com/playlist?list=PLkDeIoyhBW8mzN8d8A7G0r3jj9m_DAE0m)
+- [Api simples com node.js](https://www.youtube.com/playlist?list=PLkDeIoyhBW8mzN8d8A7G0r3jj9m_DAE0m)
 - [Rest api com Express e MySql (texto)](https://blog.logrocket.com/build-rest-api-node-express-mysql/)
 - [SQL Tutorial - Full Database Course for Beginners](https://www.youtube.com/watch?v=HXV3zeQKqGY&t=8398s)
-- [Routes and Controllers (texto)] (https://lo-victoria.com/build-a-rest-api-with-nodejs-routes-and-controllers)
+- [Routes and Controllers (texto)](https://lo-victoria.com/build-a-rest-api-with-nodejs-routes-and-controllers)
 ## Instruções para envio
 
 1. Clone este repositório no seu computador
