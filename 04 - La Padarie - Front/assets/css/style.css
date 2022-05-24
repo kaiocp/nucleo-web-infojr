@@ -73,3 +73,10 @@ footer {
     margin: 5rem 0;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .transactions {
+        flex-direction: row;
+        column-gap: 1.563rem;
+    }
+}
