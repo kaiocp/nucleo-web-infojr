@@ -74,6 +74,76 @@ footer {
     text-align: center;
 }
 
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(229, 207, 148, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: var(--white);
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.563rem;
+    width: 300px;
+}
+
+.modal h2 {
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.875rem;
+}
+
+.modal__form-data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.938rem;
+}
+
+.modal__form-data input {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    padding: 1rem 0;
+    padding-left: 1.563rem;
+    background-color: var(--bg-grey);
+    border: none;
+    border-radius: 5px;
+}
+
+.modal__form-btns {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.875rem;
+}
+
+.modal__form-btns input {
+    font-family: var(--font);
+    font-weight: 600;
+    padding: 1.125rem 6.5rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+}
+
+.red-box {
+    background-color: var(--white) !important;
+    color: var(--red) !important;
+    border: 1px solid var(--red) !important;
+}
+
 @media screen and (min-width: 1024px) {
     .transactions {
         flex-direction: row;
