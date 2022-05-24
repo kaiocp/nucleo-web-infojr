@@ -64,3 +64,12 @@ header>div {
     background-color: var(--brown);
     color: var(--white);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--brown);
+    font-size: 0.875rem;
+    margin: 5rem 0;
+    text-align: center;
+}
