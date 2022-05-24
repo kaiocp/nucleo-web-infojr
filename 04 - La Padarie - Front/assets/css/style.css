@@ -149,4 +149,11 @@ footer {
         flex-direction: row;
         column-gap: 1.563rem;
     }
+    .modal {
+        width: 540px;
+    }
+    .modal__form-btns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
