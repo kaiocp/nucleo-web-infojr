@@ -3,10 +3,16 @@
     --bg: #E5CF94;
     --bg-header: #965A1B;
     --bg-grey: #F5F5F5;
+    --white: #FFFFFF;
     --brown: #5F3305;
     --red: #DB1E1E;
     --grey: #7D7D7D;
     --font: 'Poppins';
+}
+
+body {
+    background-color: var(--bg);
+    font-family: var(--font);
 }
 
 header {
@@ -19,4 +25,42 @@ header {
 header>div {
     margin: 5rem 6.875rem;
     margin-bottom: 11.313rem;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.375rem;
+    margin-top: -3.5rem;
+    row-gap: 1.594rem;
+}
+
+.transactions__box {
+    /* ???? sobre o espaçamento entre as caixas e as bordas da pagina */
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 1.125rem 1.306rem;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.075rem;
+}
+
+.transactions__box-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transactions__box-num {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.brown-box {
+    background-color: var(--brown);
+    color: var(--white);
 }
