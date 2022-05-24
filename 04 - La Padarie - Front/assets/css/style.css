@@ -27,23 +27,25 @@ header>div {
     margin-bottom: 11.313rem;
 }
 
-.transactions {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 1.375rem;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
     margin-top: -3.5rem;
     row-gap: 1.594rem;
 }
 
 .transactions__box {
-    /* ???? sobre o espaçamento entre as caixas e as bordas da pagina */
-    width: 100%;
+    width: 280px;
     background-color: var(--white);
     border-radius: 5px;
     padding: 1.125rem 1.306rem;
-    max-width: 250px;
     display: flex;
     flex-direction: column;
     row-gap: 1.075rem;
@@ -60,7 +62,60 @@ header>div {
     font-size: 2rem;
 }
 
+.queue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .queue__btn {
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.queue__elements {
+    display: flex;
+    flex-direction: column;
+}
+
+.queue__box {
+    width: 280px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: var(--brown);
+    display: flex;
+    justify-content: space-between;
+}
+
+.queue__box h2,
+span {
+    font-weight: 700;
+}
+
+.queue__box p {
+    font-size: 0.75rem;
+}
+
+.queue__box-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.313rem;
+}
+
+.queue__box-text--order {
+    display: flex;
+    flex-direction: column;
+    row-gap: .313rem;
+}
+
+.trash-icon {
+    align-self: center;
+    justify-self: center;
+}
+
+.trash-icon a {
     cursor: pointer;
 }
 
