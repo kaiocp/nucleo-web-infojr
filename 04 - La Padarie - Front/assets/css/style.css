@@ -136,6 +136,7 @@ footer {
     border: none;
     border-radius: 5px;
     color: var(--white);
+    cursor: pointer;
 }
 
 .red-box {
