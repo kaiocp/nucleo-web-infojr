@@ -63,10 +63,12 @@ header>div {
 }
 
 .queue {
+    margin-top: 5.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 1.563rem;
 }
 
 .queue__btn {
@@ -101,7 +103,7 @@ span {
 .queue__box-text {
     display: flex;
     flex-direction: column;
-    row-gap: 0.313rem;
+    row-gap: 0.5rem;
 }
 
 .queue__box-text--order {
@@ -234,5 +236,12 @@ footer {
     .modal__form-btns {
         flex-direction: row;
         justify-content: space-between;
+    }
+    .queue__box {
+        width: 980px;
+    }
+    .queue__box-text--order {
+        flex-direction: row;
+        column-gap: 1rem;
     }
 }
