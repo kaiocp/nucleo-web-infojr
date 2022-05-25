@@ -35,8 +35,27 @@ window.addEventListener('keydown', (ev) => {
 const nome = document.getElementById('nome');
 const paes = document.getElementById('paes');
 
+const totalClientsEl = document.getElementById('total-clients');
+const totalBreadsEl = document.getElementById('total-breads');
+const totalAmountEl = document.getElementById('total-amount');
+
 let clients = []
 
+function updateTransactionBoard() {
+    let totalBreads = 0;
+    let totalAmount = 0;
+
+    for (let i = 0; i < clients.length; i++) {
+        totalBreads += clients[i].breads;
+        totalAmount += clients[i].amount;
+    }
+
+    totalClientsEl.innerHTML = clients.length;
+    totalBreadsEl.innerHTML = totalBreads;
+    totalAmountEl.innerHTML = `R$ ${totalAmount}`;
+
+
+}
 
 function makeQueueBox() {
     const queueElements = document.querySelector('.queue__elements');
@@ -69,6 +88,8 @@ function makeQueueBox() {
 
     nome.value = '';
     paes.value = '';
+
+    updateTransactionBoard();
 }
 
 enviarBtn.addEventListener('click', () => {
@@ -96,4 +117,6 @@ function removeQueue(id) {
 
     const index = clients.indexOf(id);
     clients.splice(index, 1);
+
+    updateTransactionBoard();
 };
