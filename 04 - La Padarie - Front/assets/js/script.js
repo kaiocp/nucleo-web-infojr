@@ -14,19 +14,23 @@ addPersonBtn.addEventListener('click', () => {
 modal.addEventListener('click', (ev) => {
     if (ev.target.id == 'modal') {
         modal.classList.remove('show');
+        resetValues();
     }
 })
 cancelarBtn.addEventListener('click', () => {
     modal.classList.remove('show');
+    resetValues();
 })
 cancelarBtn.addEventListener('onkeydown', (ev) => {
     if (ev.keyCode == 13) {
         modal.classList.remove('show');
+        resetValues();
     }
 })
 window.addEventListener('keydown', (ev) => {
     if (ev.keyCode == 27) {
         modal.classList.remove('show');
+        resetValues();
     }
 })
 
@@ -41,6 +45,11 @@ const totalAmountEl = document.getElementById('total-amount');
 
 let clients = []
 
+function resetValues() {
+    nome.value = '';
+    paes.value = '';
+}
+
 function updateTransactionBoard() {
     let totalBreads = 0;
     let totalAmount = 0;
@@ -53,8 +62,6 @@ function updateTransactionBoard() {
     totalClientsEl.innerHTML = clients.length;
     totalBreadsEl.innerHTML = totalBreads;
     totalAmountEl.innerHTML = `R$ ${totalAmount}`;
-
-
 }
 
 function makeQueueBox() {
@@ -86,17 +93,16 @@ function makeQueueBox() {
 
     modal.classList.remove('show');
 
-    nome.value = '';
-    paes.value = '';
+    resetValues();
 
     updateTransactionBoard();
 }
 
 enviarBtn.addEventListener('click', () => {
-    if ((nome.value != '') && (paes.value != '')) {
-        makeQueueBox();
+    if ((nome.value == '') || (paes.value == '') || (paes.value <= 0)) {
+        alert("Por favor, digite as informações corretamente")
     } else {
-        alert("Digite um nome e a quantidade de pães.")
+        makeQueueBox();
     }
 });
 
