@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>La Padarie</title>
 </head>
 
 <body>
@@ -44,18 +44,6 @@
         <section class="queue">
             <a id="modal-btn" class="queue__btn">+ Adicionar pessoa à fila</a>
             <div class="queue__elements">
-                <div class="queue__box">
-                    <div class="queue__box-text">
-                        <h2>Kaio Pedreira</h2>
-                        <div class="queue__box-text--order">
-                            <p><span class="bold">Total de pães: </span>30</p>
-                            <p><span class="bold">Total a pagar: </span>R$</p>
-                        </div>
-                    </div>
-                    <div class="trash-icon">
-                        <a><img src="assets/img/icons/trash.svg" alt=""></a>
-                    </div>
-                </div>
             </div>
         </section>
     </div>
@@ -71,19 +59,20 @@
             <fieldset>
                 <form class="modal__form">
                     <div class="modal__form-data">
-                        <input type="text" placeholder="Nome completo do/a cliente">
-                        <input type="number" placeholder="Total de pães">
+                        <input type="text" id="nome" placeholder="Nome completo do/a cliente">
+                        <input type="number" id="paes" placeholder="Total de pães">
                     </div>
                     <div class="modal__form-btns">
-                        <input type="button" value="Enviar" class="brown-box">
-                        <input type="button" value="Cancelar" class="red-box">
+                        <input type="button" id="enviar" value="Enviar" class="brown-box">
+                        <input type="button" id="cancelar" value="Cancelar" class="red-box">
                     </div>
                 </form>
             </fieldset>
         </div>
     </div>
 
-    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
