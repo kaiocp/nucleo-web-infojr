@@ -108,10 +108,10 @@ enviarBtn.addEventListener('click', () => {
 
 enviarBtn.addEventListener('onkeydown', (ev) => {
     if (ev.keyCode == 13) {
-        if ((nome.value != '') && (paes.value != '')) {
-            makeQueueBox();
+        if ((nome.value == '') || (paes.value == '') || (paes.value <= 0)) {
+            alert("Por favor, digite as informações corretamente")
         } else {
-            alert("Digite um nome e a quantidade de pães.")
+            makeQueueBox();
         }
     }
 });
