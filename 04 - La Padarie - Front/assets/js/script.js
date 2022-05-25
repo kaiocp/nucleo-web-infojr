@@ -61,7 +61,7 @@ function updateTransactionBoard() {
 
     totalClientsEl.innerHTML = clients.length;
     totalBreadsEl.innerHTML = totalBreads;
-    totalAmountEl.innerHTML = `R$ ${totalAmount}`;
+    totalAmountEl.innerHTML = `R$ ${totalAmount.toFixed(2)}`;
 }
 
 function makeQueueBox() {

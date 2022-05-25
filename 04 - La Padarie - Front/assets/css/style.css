@@ -74,6 +74,8 @@ header>div {
 .queue__btn {
     cursor: pointer;
     align-self: flex-start;
+    color: var(--brown);
+    font-weight: 700;
 }
 
 .queue__elements {
