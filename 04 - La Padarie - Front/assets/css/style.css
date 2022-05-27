@@ -27,7 +27,7 @@ header>div {
     margin-bottom: 11.313rem;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
