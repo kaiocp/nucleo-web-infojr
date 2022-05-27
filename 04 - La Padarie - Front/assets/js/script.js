@@ -43,7 +43,7 @@ const totalClientsEl = document.getElementById('total-clients');
 const totalBreadsEl = document.getElementById('total-breads');
 const totalAmountEl = document.getElementById('total-amount');
 
-let clients = JSON.parse(localStorage.getItem("clients")) || []
+let clients = JSON.parse(localStorage.getItem("clients")) || [];
 
 function resetValues() {
     nome.value = '';
