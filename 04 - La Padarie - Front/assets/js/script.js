@@ -43,8 +43,6 @@ const totalClientsEl = document.getElementById('total-clients');
 const totalBreadsEl = document.getElementById('total-breads');
 const totalAmountEl = document.getElementById('total-amount');
 
-const queueElements = document.querySelector('.queue__elements');
-
 let clients = JSON.parse(localStorage.getItem("clients")) || []
 
 function resetValues() {
@@ -79,13 +77,8 @@ function removeQueue(id) {
     updateTransactionBoard();
 };
 
-function makeQueueBox() {
-    let client = {
-        id: document.querySelectorAll('.queue__box').length,
-        name: nome.value,
-        breads: parseInt(paes.value),
-        amount: parseInt(paes.value) * 0.5
-    }
+function makeQueueBoxInnerHTML(client) {
+    const queueElements = document.querySelector('.queue__elements');
 
     queueElements.innerHTML += `
     <div class="queue__box" id="${client.id}">
@@ -101,34 +94,29 @@ function makeQueueBox() {
         </div>
     </div>
     `
+}
+
+function makeQueueBox() {
+    let client = {
+        id: document.querySelectorAll('.queue__box').length,
+        name: nome.value,
+        breads: parseInt(paes.value),
+        amount: parseInt(paes.value) * 0.5
+    }
 
     clients.push(client);
+    localStorage.setItem("clients", JSON.stringify(clients));
 
-    modal.classList.remove('show');
+    makeQueueBoxInnerHTML(client);
 
     resetValues();
-
     updateTransactionBoard();
-
-    localStorage.setItem("clients", JSON.stringify(clients));
+    modal.classList.remove('show');
 }
 
 if (clients.length > 0) {
     clients.forEach((client) => {
-        queueElements.innerHTML += `
-        <div class="queue__box" id="${client.id}">
-            <div class="queue__box-text">
-                <h2>${client.name}</h2>
-                <div class="queue__box-text--order">
-                    <p><span class="bold">Total de pães: </span>${client.breads}</p>
-                    <p><span class="bold">Total a pagar: </span>R$ ${client.amount}</p>
-                </div>
-            </div>
-            <div class="trash-icon">
-                <a onclick="removeQueue(${client.id})"><img src="assets/img/icons/trash.svg" alt=""></a>
-            </div>
-        </div>
-        `
+        makeQueueBoxInnerHTML(client);
 
         updateTransactionBoard();
     })
