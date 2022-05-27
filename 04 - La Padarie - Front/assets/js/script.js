@@ -90,7 +90,7 @@ function makeQueueBoxInnerHTML(client) {
             </div>
         </div>
         <div class="trash-icon">
-            <a onclick="removeQueue(${client.id})"><img src="assets/img/icons/trash.svg" alt=""></a>
+            <a onclick="removeQueue(${client.id})"><img src="assets/img/icons/trash.svg" alt="Remover da fila"></a>
         </div>
     </div>
     `
