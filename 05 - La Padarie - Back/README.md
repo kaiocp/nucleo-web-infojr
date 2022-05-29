@@ -7,19 +7,14 @@
 
 ## Descrição da atividade
 
-O projeto WeLoveDogs tem por objetivo iniciar o aprendizado em HTML e CSS, 2 das 3 tecnnologias bases do front-end. O projeto possui o formato static multipage¹, com 4 páginas no total e a maneira de navegar e visualizar seu conteúdo por completo é através dos links do menu.
-
+Esta atividade tem o objetivo de introduzir o uso de banco de dados, por meio da intregração de um back-end com um banco de dados sql. Depois de desenvolver a api vocês devem usá-la no front-end da última atividade para deixar os dados salvos.
 ### Tarefa
 
-Com base no [mockup²](https://www.figma.com/file/83KrYRp9nXE4wyMIWgxu6O/WeLoveDogs-N%C3%BAcleo-Web?node-id=0%3A1) apresentado, usando HTML e CSS, construa a webpage do grupo social WeLoveDogs.
-
-Acesse a [issue](https://gitlab.com/InfoJrUFBA/nucleos/2021/03/web/-/issues/1) da atividade para visualizar todos os requisitos que serão avaliados na hora da correção
-
+<p>Crie uma tabela sql com colunas referentes a informações de cada pedido (id, nome do cliente e quantidade de pães) e, usando o express js, crie uma api que se comunique com o banco de dados e possa adicionar e acessar os pedidos. 
+Copie o front-end da atividade passada para esta pasta e integre o seu back-end com o front-end fazendo requisições a sua api.
+O seu banco de dados deve estar hospedado [aqui](https://db4free.net/) para facilitar a correção.
+Os requisitos dessa atividade podem ser encontrados no alterclass.</p>
 ---
-
-_¹Static multipage. Consiste em um modelo da Web de um site com várias páginas, construídas usando HTML e seu conteúdo não muda independemente da solicitação. A única forma de mudar o conteúdo apresentado é alterado diretamente o código da página. O servidor renderizará as página HTML sempre que o usuário clicar em um link no menu do site._
-
-_²Mockup é uma representação estática de um projeto, bem próximo do design final, o seu uso tem como finalidade representar a estrutura da informação, visualizar o conteúdo de forma estática, demonstrar as principais funcionalidades (de forma estática) e estimular os envolvidos a revisarem a parte visual (design) do projeto._
 
 ## Materiais de apoio
 
@@ -29,6 +24,24 @@ _²Mockup é uma representação estática de um projeto, bem próximo do design
   | **[HTML5](https://youtube.com/playlist?list=PLwXQLZ3FdTVGKl3iPEyEWpFoYkMUxWW5O)**
   | **[CSS3](https://youtube.com/playlist?list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG)**
   | **[HTML5 & CSS3 na Prática](https://youtube.com/playlist?list=PLwXQLZ3FdTVF_HYP5r1oR7vK1_7ZuTU78)**
+
+### Figma
+
+- [Convert A Figma Design To A Real Website Part.1 - GTCoding](https://youtu.be/q_YNq0j_QfE)
+- [Convert A Figma Design To A Real Website Part.2 - GTCoding](https://youtu.be/2r91B6ZwN_E)
+
+### Vídeos/Textos por assuntos presentes na atividade
+
+### Cursos Completos
+
+- Node Studio Treinamentos
+  | **[HTML5](https://youtube.com/playlist?list=PLwXQLZ3FdTVGKl3iPEyEWpFoYkMUxWW5O)**
+  | **[CSS3](https://youtube.com/playlist?list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG)**
+  | **[Javascript](https://youtube.com/playlist?list=PLwXQLZ3FdTVF9Y0RbsuN54XYP7D0dZIlR)**
+  | **[Design Responsivo](https://youtube.com/playlist?list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5)**
+- [JavaScript - Curso em Vídeo](https://youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)
+- [JavaScript Crash Course For Beginners - Traversy Media](https://youtu.be/hdI2bqOjy3c)
+- [JavaScript Fundamentos - Marcelo Espíndola](https://youtube.com/playlist?list=PLkiMYncb6g-2ypEzGZ8Zo-_46-IUJC3tu)
 
 ### Figma
 
@@ -51,12 +64,6 @@ HTML Semântico
 - [Semântica - Dica do Nerd](https://youtu.be/NdAjp7X2CUI)
 - [Estruturação da página utilizando tags Semânticas do HTML5 - Tiago Segato](https://youtu.be/6V3msF_YBQk)
 
-Form
-
-- [HTML Forms - w3schools (Texto)](https://www.w3schools.com/html/html_forms.asp)
-- [Criando um Formulário - Zero Bugs](https://youtu.be/vJoCnzEucCc)
-- [Tag form do HTML5 - hcode](https://youtu.be/spgu7it3ODY)
-
 #### CSS
 
 Flexbox
@@ -71,7 +78,64 @@ Formatação geral
 - [Unidades Relativas Part.2 - Ferreira Studios](https://youtu.be/g__c-7M9Xzk)
 - [Espaçamentos e a mágica do CSS Box Model - Rocketseat](https://youtu.be/nhW70H9H4gU)
 - [Representando Cores com CSS3 - Curso em Vídeo](https://youtu.be/uKjKnztS3cY)
+- [min(), max(), and clamp() - Kevin Powell](https://youtu.be/U9VF-4euyRo)
+- [CSS Position - Tiger Codes](https://youtu.be/zPlt84S1L0U)
 
+Media Queries
+
+- [Responsividade para sites - Curso em Vídeo](https://youtu.be/WcGPSeuJDJ0)
+- [Como utilizar Media Queries para sites Responsivos - Origamid](https://youtu.be/AltqAPZzAqo)
+
+#### Javascript
+
+Variáveis
+
+- [Variáveis (var, let, const e escopo) - Node Studio Treinamentos](https://youtu.be/GmG5FkF2Hlc)
+
+Funções
+
+- [Funções - Curso em Vídeo](https://youtu.be/mc3TKp2XzhI)
+- [funções - Matheus Battisti](https://youtu.be/ItzRdMj1lzw)
+
+DOM
+
+- [Introdução ao DOM - Curso em vídeo](https://youtu.be/WWZX8RWLxIk)
+- [Eventos DOM - Curso em vídeo](https://youtu.be/wWnBB-mZIvY)
+- [innerHTML property - nexTRIE](https://youtu.be/DSScGM_OtME)
+- [appendChild - Marcelo Espíndola](https://youtu.be/wqyVBiEPd7E)
+- [Events - Basic onclick Event - Intro to Web Apps](https://youtu.be/xj0DQI7N4Go)
+- [Event Handlers in Javascript - Programming With Avelx](https://youtu.be/7UstS0hsHgI)
+
+Modal
+
+- [Modal "pop-up" com JavaScript e CSS - Origamid](https://youtu.be/fu-enUG2VEE)
+- [Como criar uma div modal utilizando HTML 5, CSS 3 e JavaScript - Making Codes](https://youtu.be/IcbnEYaVs24)
+- [Create a Modal (Popup) with HTML/CSS and JavaScript](https://youtu.be/XH5OW46yO8I)
+- [How To Create A Modal In Javascript and CSS - DevEd](https://youtu.be/KjQ8uvAt9kQ)
+
+Operadores
+
+- [Operadores - w3schools (texto)](https://www.w3schools.com/js/js_operators.asp)
+- [Operadores (Parte1) - Curso em Vídeo](https://youtu.be/hZG9ODUdxHo)
+- [Operadores (Parte2) - Curso em Vídeo](https://youtu.be/BP63NhITvao)
+- [How to Increment and Decrement Counter on Button Click in Javascript - KodeBase](https://youtu.be/wF2gOkBMmsk)
+- [JavaScript Tutorial | Operators - Telusko](https://youtu.be/ULNJSTSJc7s)
+
+Array
+
+- [Arrays - w3schools (texto)](https://www.w3schools.com/js/js_arrays.asp)
+- [Arrays - Ordenação de Elementos - Bóson Treinamentos](https://youtu.be/SkDZY7N0Ox8)
+- [Arrays - Propriedades e Métodos - Bóson Treinamentos](https://youtu.be/Zz9tT9yCy9I)
+- [Métodos de Arrays I - Webdesign em Foco](https://youtu.be/HrjwmnW5ua0)
+- [Métodos de Arrays II - Webdesign em Foco](https://youtu.be/j5GnRNU4xS4)
+- [How to change data in JavaScript arrays - Dani Krossing](https://youtu.be/rncGek3BCCA)
+- [JavaScript Higher Order Functions & Arrays - Traversy Media](https://youtu.be/rRgD1yVwIvE)
+
+Express e Sql
+- [Api simples com node.js](https://www.youtube.com/playlist?list=PLkDeIoyhBW8mzN8d8A7G0r3jj9m_DAE0m)
+- [Rest api com Express e MySql (texto)](https://blog.logrocket.com/build-rest-api-node-express-mysql/)
+- [SQL Tutorial - Full Database Course for Beginners](https://www.youtube.com/watch?v=HXV3zeQKqGY&t=8398s)
+- [Routes and Controllers (texto)](https://lo-victoria.com/build-a-rest-api-with-nodejs-routes-and-controllers)
 ## Instruções para envio
 
 1. Clone este repositório no seu computador
