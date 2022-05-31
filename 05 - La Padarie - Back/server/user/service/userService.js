@@ -1,4 +1,4 @@
-const mysql = require('../../database');
+const mysql = require('../../database').pool;
 
 exports.getAllUsers = (req, res) => {
     mysql.getConnection((error, conn) => {
