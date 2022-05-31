@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>La Padarie</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="assets/img/icons/Logo 1.svg" alt="La Padarie">
+        </div>
+    </header>
+    <main>
+        <section class="transactions">
+            <div class="transactions__box">
+                <div class="transactions__box-row">
+                    <p>Pessoas na fila</p>
+                    <img src="assets/img/icons/Icon.svg" alt="Pessoas na fila">
+                </div>
+                <p class="transactions__box-num" id="total-clients">0</p>
+            </div>
+            <div class="transactions__box">
+                <div class="transactions__box-row">
+                    <p>Pães vendidos</p>
+                    <img src="assets/img/icons/Group 1.svg" alt="Pães vendidos">
+                </div>
+                <p class="transactions__box-num" id="total-breads">0</p>
+            </div>
+            <div class="transactions__box brown-box">
+                <div class="transactions__box-row">
+                    <p>Entrada</p>
+                    <img src="assets/img/icons/Group 2.svg" alt="Entrada">
+                </div>
+                <p class="transactions__box-num" id="total-amount">R$ 0.00</p>
+            </div>
+        </section>
+
+        <section class="queue">
+            <a id="modal-btn" class="queue__btn">+ Adicionar pessoa à fila</a>
+            <div class="queue__elements"></div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Com &#x1F49B; Info Jr UFBA 2022</p>
+    </footer>
+
+    <div id="modal" class="modal-container">
+        <div class="modal">
+            <h2>Adicionar pessoa à fila</h2>
+            <fieldset>
+                <form class="modal__form">
+                    <div class="modal__form-data">
+                        <input type="text" id="nome" placeholder="Nome completo do/a cliente">
+                        <input type="number" id="paes" placeholder="Total de pães">
+                    </div>
+                    <div class="modal__form-btns">
+                        <input type="button" id="enviar" value="Enviar" class="brown-box">
+                        <input type="button" id="cancelar" value="Cancelar" class="red-box">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

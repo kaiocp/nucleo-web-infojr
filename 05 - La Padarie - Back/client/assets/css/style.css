@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    --bg: #E5CF94;
+    --bg-header: #965A1B;
+    --bg-grey: #F5F5F5;
+    --white: #FFFFFF;
+    --brown: #5F3305;
+    --red: #DB1E1E;
+    --grey: #7D7D7D;
+    --font: 'Poppins';
+}
+
+body {
+    background-color: var(--bg);
+    font-family: var(--font);
+}
+
+header {
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div {
+    margin: 5rem 6.875rem;
+    margin-bottom: 11.313rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3.5rem;
+    row-gap: 1.594rem;
+}
+
+.transactions__box {
+    width: 280px;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 1.125rem 1.306rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.075rem;
+}
+
+.transactions__box-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transactions__box-num {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.queue {
+    margin-top: 5.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.563rem;
+}
+
+.queue__btn {
+    cursor: pointer;
+    align-self: flex-start;
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.queue__elements {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.queue__box {
+    width: 280px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: var(--brown);
+    display: flex;
+    justify-content: space-between;
+}
+
+.queue__box h2,
+span {
+    font-weight: 700;
+}
+
+.queue__box p {
+    font-size: 0.75rem;
+}
+
+.queue__box-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.queue__box-text--order {
+    display: flex;
+    flex-direction: column;
+    row-gap: .313rem;
+}
+
+.trash-icon {
+    align-self: center;
+    justify-self: center;
+}
+
+.trash-icon a {
+    cursor: pointer;
+}
+
+.brown-box {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--brown);
+    font-size: 0.875rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(229, 207, 148, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.show {
+    display: flex;
+}
+
+.modal {
+    background-color: var(--white);
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.563rem;
+    width: 300px;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.show .modal {
+    animation: modal .3s;
+}
+
+.modal h2 {
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.875rem;
+}
+
+.modal__form-data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.938rem;
+}
+
+.modal__form-data input {
+    font-family: var(--font);
+    font-size: 0.75rem;
+    padding: 1rem 0;
+    padding-left: 1.563rem;
+    background-color: var(--bg-grey);
+    border: none;
+    border-radius: 5px;
+}
+
+.modal__form-btns {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.875rem;
+}
+
+.modal__form-btns input {
+    font-family: var(--font);
+    font-weight: 600;
+    padding: 1.125rem 6.5rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.red-box {
+    background-color: var(--white) !important;
+    color: var(--red) !important;
+    border: 1px solid var(--red) !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .transactions {
+        flex-direction: row;
+        column-gap: 1.563rem;
+    }
+    .modal {
+        width: 540px;
+    }
+    .modal__form-btns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .queue__box {
+        width: 980px;
+    }
+    .queue__box-text--order {
+        flex-direction: row;
+        column-gap: 1rem;
+    }
+}
