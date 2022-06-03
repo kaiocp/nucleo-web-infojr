@@ -7,19 +7,18 @@
 
 ## Descrição da atividade
 
-O projeto WeLoveDogs tem por objetivo iniciar o aprendizado em HTML e CSS, 2 das 3 tecnnologias bases do front-end. O projeto possui o formato static multipage¹, com 4 páginas no total e a maneira de navegar e visualizar seu conteúdo por completo é através dos links do menu.
+O projeto Pokedex tem por objetivo iniciar o aprendizado em React. O projeto tem formato de uma página dinâmica e responsiva.
 
 ### Tarefa
 
-Com base no [mockup²](https://www.figma.com/file/83KrYRp9nXE4wyMIWgxu6O/WeLoveDogs-N%C3%BAcleo-Web?node-id=0%3A1) apresentado, usando HTML e CSS, construa a webpage do grupo social WeLoveDogs.
+Com base no [mockup²](https://www.figma.com/file/jmmI97q80rCap7j7gGaAkz/Pokedex?node-id=0%3A1) apresentado
+construa a página da pokedex com React e css.
 
-Acesse a [issue](https://gitlab.com/InfoJrUFBA/nucleos/2021/03/web/-/issues/1) da atividade para visualizar todos os requisitos que serão avaliados na hora da correção
+Os requisitos da atividade estão disponíveis no Alterclass.
 
 ---
 
-_¹Static multipage. Consiste em um modelo da Web de um site com várias páginas, construídas usando HTML e seu conteúdo não muda independemente da solicitação. A única forma de mudar o conteúdo apresentado é alterado diretamente o código da página. O servidor renderizará as página HTML sempre que o usuário clicar em um link no menu do site._
-
-_²Mockup é uma representação estática de um projeto, bem próximo do design final, o seu uso tem como finalidade representar a estrutura da informação, visualizar o conteúdo de forma estática, demonstrar as principais funcionalidades (de forma estática) e estimular os envolvidos a revisarem a parte visual (design) do projeto._
+_React é uma biblioteca JavaScript declarativa, eficiente e flexível criada pelo Facebook em 2011 para desenvolver aplicações front-end, ou seja, interfaces de usuário (UIs)._
 
 ## Materiais de apoio
 
@@ -71,6 +70,19 @@ Formatação geral
 - [Unidades Relativas Part.2 - Ferreira Studios](https://youtu.be/g__c-7M9Xzk)
 - [Espaçamentos e a mágica do CSS Box Model - Rocketseat](https://youtu.be/nhW70H9H4gU)
 - [Representando Cores com CSS3 - Curso em Vídeo](https://youtu.be/uKjKnztS3cY)
+
+#### React
+- [Documentação(texto)](https://pt-br.reactjs.org/docs/getting-started.html)
+- [React JS // Dicionário do Programador - Código Fonte TV](https://youtu.be/NhUr8cwDiiM)
+- [ReactJS Básico 01 - Introdução - Ralf Lima](https://youtu.be/vVRkM3Qn9pA)
+- [ReactJS Básico 02 - Criando e executando projetos - Ralf Lima](https://youtu.be/Kyy__5n81Tk)
+- [ReactJS Básico 03 - Estrutura do projeto - Ralf Lima](https://youtu.be/R1P82uKid0o)
+- [ReactJS Básico 04 - Render - Ralf Lima](https://youtu.be/ubKKEQE0CrM)
+- [ReactJS Básico 05 - JSX - Ralf Lima](https://youtu.be/XLD1IF0APL4)
+- [ReactJS Básico 06 - Componentes - Ralf Lima](https://youtu.be/T98gEcFTnC0)
+- [ReactJS Básico 17 - CSS - Ralf Lima](https://youtu.be/jh4lYJx6KR8)
+- [ReactJS Básico 18 - Utilizando className - Ralf Lima](https://youtu.be/q9Z1FBnmNZQ)
+- [Documentação Vite](https://vitejs.dev/guide/#trying-vite-online)
 
 ## Instruções para envio
 
