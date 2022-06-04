@@ -34,99 +34,89 @@ window.addEventListener('keydown', (ev) => {
     }
 })
 
-// get elements and adds to html document
+// comunicação com a api
 
-const nome = document.getElementById('nome');
-const paes = document.getElementById('paes');
+async function getClients() {
+    const res = await fetch("http://localhost:3000/user");
+    let data = await res.json();
 
-const totalClientsEl = document.getElementById('total-clients');
-const totalBreadsEl = document.getElementById('total-breads');
-const totalAmountEl = document.getElementById('total-amount');
-
-let clients = JSON.parse(localStorage.getItem("clients")) || [];
-
-function resetValues() {
-    nome.value = '';
-    paes.value = '';
+    return data;
 }
 
-function updateTransactionBoard() {
+async function postClient(name, breads) {
+    let data = {
+        name: name,
+        breads: breads
+    }
+
+    await fetch(
+        "http://localhost:3000/user", {
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: { 'Content-Type': 'application/json' }
+        }
+    ).then(res => {
+        console.log(res);
+    });
+}
+
+async function deleteClient(id) {
+    await fetch(`http://localhost:3000/user/${id}`, {
+        method: "DELETE",
+        headers: { 'Content-Type': 'application/json' }
+    }).then(res => { console.log(res) })
+}
+
+async function makeHTML() {
+    const clients = await getClients();
+
+    const queueElements = document.querySelector('.queue__elements');
+
+    const totalClientsEl = document.getElementById('total-clients');
+    const totalBreadsEl = document.getElementById('total-breads');
+    const totalAmountEl = document.getElementById('total-amount');
+
+    let totalClients = 0;
     let totalBreads = 0;
     let totalAmount = 0;
 
-    for (let i = 0; i < clients.length; i++) {
-        totalBreads += clients[i].breads;
-        totalAmount += clients[i].amount;
-    }
-
-    totalClientsEl.innerHTML = clients.length;
-    totalBreadsEl.innerHTML = totalBreads;
-    totalAmountEl.innerHTML = `R$ ${totalAmount.toFixed(2)}`;
-}
-
-// remove element when trash icon is clicked, also removes it from the clients array and localstorage
-function removeQueue(id) {
-    const queue = document.getElementById(id);
-    queue.remove();
-
-    const index = clients.indexOf(id);
-    clients.splice(index, 1);
-
-    localStorage.clients = JSON.stringify(clients);
-
-    updateTransactionBoard();
-};
-
-function makeQueueBoxInnerHTML(client) {
-    const queueElements = document.querySelector('.queue__elements');
-
-    queueElements.innerHTML += `
-    <div class="queue__box" id="${client.id}">
-        <div class="queue__box-text">
-            <h2>${client.name}</h2>
-            <div class="queue__box-text--order">
-                <p><span class="bold">Total de pães: </span>${client.breads}</p>
-                <p><span class="bold">Total a pagar: </span>R$ ${client.amount}</p>
+    clients.response.forEach(client => {
+        queueElements.innerHTML += `
+        <div class="queue__box" id="${client.id}">
+            <div class="queue__box-text">
+                <h2>${client.name}</h2>
+                <div class="queue__box-text--order">
+                    <p><span class="bold">Total de pães: </span>${client.breads}</p>
+                    <p><span class="bold">Total a pagar: </span>R$ ${client.breads * 0.5}</p>
+                </div>
+            </div>
+            <div class="trash-icon">
+                <a onclick="removeQueue(${client.id})"><img src="assets/img/icons/trash.svg" alt="Remover da fila"></a>
             </div>
         </div>
-        <div class="trash-icon">
-            <a onclick="removeQueue(${client.id})"><img src="assets/img/icons/trash.svg" alt="Remover da fila"></a>
-        </div>
-    </div>
-    `
+        `
+            // updating transaction board
+        totalClients += 1;
+        totalBreads += client.breads;
+        totalAmount += (client.breads * 0.5);
+
+        totalClientsEl.innerHTML = totalClients
+        totalBreadsEl.innerHTML = totalBreads;
+        totalAmountEl.innerHTML = `R$ ${totalAmount.toFixed(2)}`;
+    });
 }
 
-function makeQueueBox() {
-    let client = {
-        id: document.querySelectorAll('.queue__box').length,
-        name: nome.value,
-        breads: parseInt(paes.value),
-        amount: parseInt(paes.value) * 0.5
-    }
+// get elements and posts on api
 
-    clients.push(client);
-    localStorage.setItem("clients", JSON.stringify(clients));
-
-    makeQueueBoxInnerHTML(client);
-
-    resetValues();
-    updateTransactionBoard();
-    modal.classList.remove('show');
-}
-
-if (clients.length > 0) {
-    clients.forEach((client) => {
-        makeQueueBoxInnerHTML(client);
-
-        updateTransactionBoard();
-    })
-}
+const nome = document.getElementById('nome');
+const paes = document.getElementById('paes');
 
 enviarBtn.addEventListener('click', () => {
     if ((nome.value == '') || (paes.value == '') || (paes.value <= 0)) {
         alert("Por favor, digite as informações corretamente")
     } else {
-        makeQueueBox();
+        postClient(nome.value, parseInt(paes.value));
+        location.reload();
     }
 });
 
@@ -135,7 +125,23 @@ enviarBtn.addEventListener('onkeydown', (ev) => {
         if ((nome.value == '') || (paes.value == '') || (paes.value <= 0)) {
             alert("Por favor, digite as informações corretamente")
         } else {
-            makeQueueBox();
+            postClient(nome, paes);
+            location.reload();
         }
     }
 });
+
+function resetValues() {
+    nome.value = '';
+    paes.value = '';
+}
+
+function removeQueue(id) {
+    const queue = document.getElementById(id);
+    queue.remove();
+
+    deleteClient(id);
+    location.reload();
+};
+
+makeHTML();
