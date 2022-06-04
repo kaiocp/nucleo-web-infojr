@@ -42,16 +42,22 @@ exports.getUserById = (req, res) => {
 
 exports.createUser = (req, res) => {
     mysql.getConnection((error, conn) => {
-        if (error) { return res.status(500).send({ error: error }) }
+        if (error) {
+            console.log(error)
+            return res.status(500).send({ error: error })
+        }
+        console.log(req.body);
         conn.query(
             'INSERT INTO user (name, breads) VALUES (?, ?)', [req.body.name, req.body.breads],
             (error) => {
                 conn.release();
 
                 if (error) {
+                    console.log(error)
                     return res.status(500).send({
                         error: error
                     })
+
                 }
 
                 res.status(201).send({

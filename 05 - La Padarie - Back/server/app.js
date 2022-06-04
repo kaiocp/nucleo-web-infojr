@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
+var cors = require('cors');
+app.use(cors());
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -33,10 +36,10 @@ app.use('/user', userController);
 
 // rotas caso as acima nao sejam acessiveis
 app.use(() => {
-    const error = new Error('Não encontrado')
+    const error = new Error('Não encontrado');
     error.status = 404;
-    next(error);
-})
+    next();
+});
 
 app.use((error, res) => {
     res.status(error.status || 500);
