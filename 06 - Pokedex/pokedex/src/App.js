@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './App.css';
+import './css/Reset.css';
+import './css/App.css';
+import pkblimg from './static/pokeb.svg'
+import Cards from './js/Cards';
 
 function App() {
   const [searchText, setSearchText] = useState("");
   const [pokemonData, setPokemonData] = useState({});
 
   function searchForPokemon(event) {
-    let APICallString = 'https://pokeapi.co/api/v2/pokemon/' + searchText;
+    let APICallString = 'https://pokeapi.co/api/v2/pokemon/' + searchText.toLowerCase();
 
     axios.get(APICallString).then((response) => {
       setPokemonData(response.data);
@@ -16,32 +19,32 @@ function App() {
     })
   }
 
-  // console.log(pokemonData);
-
-  // pokemonData.types.forEach(el => {
-  //   console.log(el.type.name)
-  // });
-
-
-
   return (
     <div className="App">
-      <div className="container">
-        <h5>Poke Search</h5>
-        <input type="text" onChange={e => setSearchText(e.target.value)}></input>
-        <button onClick={e => searchForPokemon(e)}>Search</button>
-      </div>
+        <header>
+          <img src={pkblimg} alt="Pokedex" />
+        </header>
+        <div className="searchBar">
+          <input placeholder="Pesquisar pokémon" type="text" onChange={e => setSearchText(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && searchForPokemon(e)} />
+        </div>
+        <div class="title">
+          <h1>Pokédex</h1>
+        </div>     
       {JSON.stringify(pokemonData) !== '{}' ? 
         <>
           <p>{pokemonData.name}</p>
-          <p>Aqui vao os tipos hihi</p>
+          <div>{pokemonData.types.map(el => {
+            return <p>{el.type.name}</p>
+          })}</div>
           <img src={pokemonData.sprites.front_default} alt="" />
         </>
         :
-        <><p>We dont have pokemon data</p></>
+        <Cards />
       }
     </div>
   );
 }
 
 export default App;
+
+

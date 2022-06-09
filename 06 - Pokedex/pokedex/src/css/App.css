@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap');
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.25rem;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 34px 20px;
+}
+
+.searchBar input {
+    width: 90%;
+    border: none;
+    padding-left: 1.25rem;
+    background-origin: content-box;
+    background: url("/src/static/Icon.svg") no-repeat;
+    background-position: right 1.25rem top 22px;
+    background-color: #F1F5F9;
+    border-radius: 10px;
+    height: 56px;
+    max-width: 1020px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "DM Sans", normal;
+    font-size: 48px;
+    color: #1E293B;
+    max-width: 1020px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 2.125rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        justify-content: flex-start;
+    }
+}
