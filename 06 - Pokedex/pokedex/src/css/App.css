@@ -24,6 +24,9 @@ header {
     border-radius: 10px;
     height: 56px;
     max-width: 1020px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #94A3B8;
 }
 
 .title {
@@ -36,6 +39,50 @@ header {
     margin: 0 auto;
     font-weight: 700;
     margin-bottom: 2.125rem;
+}
+
+.searchCard {
+    width: 324px;
+    background: rgba(122, 199, 76, 0.1);
+    border-radius: 24px;
+    padding-left: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-weight: 700;
+}
+
+.searchCard__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.searchCard h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.searchCard__info-types {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.searchCard__info-types p {
+    background: #7AC74C;
+    text-align: center;
+    border-radius: 50px;
+    padding: 4px 8px;
+    width: max-content;
+}
+
+.searchCard__img {
+    width: 200px;
 }
 
 @media screen and (min-width: 1024px) {

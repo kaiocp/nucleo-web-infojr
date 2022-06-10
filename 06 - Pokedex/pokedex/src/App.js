@@ -27,17 +27,21 @@ function App() {
         <div className="searchBar">
           <input placeholder="Pesquisar pokémon" type="text" onChange={e => setSearchText(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && searchForPokemon(e)} />
         </div>
-        <div class="title">
+        <div className="title">
           <h1>Pokédex</h1>
         </div>     
       {JSON.stringify(pokemonData) !== '{}' ? 
-        <>
-          <p>{pokemonData.name}</p>
-          <div>{pokemonData.types.map(el => {
-            return <p>{el.type.name}</p>
-          })}</div>
-          <img src={pokemonData.sprites.front_default} alt="" />
-        </>
+        <div className="searchCard">
+          <div className="searchCard__info">
+            <h2>{pokemonData.name}</h2>
+            <div className="searchCard__info-types">
+              {pokemonData.types.map(el => {
+              return <p>{el.type.name}</p>
+              })}
+            </div>
+          </div>
+          <img className="searchCard__img" src={pokemonData.sprites.front_default} alt="" />
+        </div>
         :
         <Cards />
       }
