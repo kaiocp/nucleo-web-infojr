@@ -85,8 +85,22 @@ header {
     width: 200px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-family: 'Poppins';
+    color: #1E293B;
+}
+
 @media screen and (min-width: 1024px) {
     .title {
         justify-content: flex-start;
+    }
+    footer {
+        margin-top: 100px;
     }
 }

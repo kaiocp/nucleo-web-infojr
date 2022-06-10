@@ -45,6 +45,9 @@ function App() {
         :
         <Cards />
       }
+      <footer>
+        <p>Com &#x1F49B; Info Jr UFBA 2022</p>
+      </footer>
     </div>
   );
 }
