@@ -31,7 +31,7 @@ function App() {
           <h1>Pokédex</h1>
         </div>     
       {JSON.stringify(pokemonData) !== '{}' ? 
-        <div className="searchCard">
+        <div className="searchCard" key={pokemonData.id}>
           <div className="searchCard__info">
             <h2>{pokemonData.name}</h2>
             <div className="searchCard__info-types">
